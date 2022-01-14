@@ -1,4 +1,6 @@
 Gitbash commands homework №1
+
+
 1) Посмотреть где я:
 	pwd
 
