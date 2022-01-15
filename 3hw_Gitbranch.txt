@@ -1,13 +1,13 @@
 Gitbranch commands homework №3
 
 1. На локальном репозитории сделать ветки для:
-- Postman
-- Jmeter
-- CheckLists
-- Bug_Reports
-- SQL
-- Charles
-- Mobile_testing
+    - Postman
+    - Jmeter
+    - Checklists
+    - Bug_reports
+    - SQL
+    - Charles
+    - Mobile_testing
 
     $ git branch
     * main
@@ -15,16 +15,16 @@ Gitbranch commands homework №3
 
     $ git branch Postman 
     $ git branch Jmeter
-    $ git branch CheckLists
-    $ git branch Bug_Reports
+    $ git branch Checklists
+    $ git branch Bug_reports
     $ git branch SQL
     $ git branch Charles
     $ git branch Mobile_testing
 
     $ git branch
-    Bug_Reports
+    Bug_reports
     Charles
-    CheckLists
+    Checklists
     Jmeter
     Mobile_testing
     Postman
@@ -32,39 +32,39 @@ Gitbranch commands homework №3
     * main
 
 2. Запушить все ветки на внешний репозиторий
-    $ git push -u origin Bug_Reports
+    $ git push -u origin Bug_reports
     $ git push -u origin Charles
-    $ git push -u origin CheckLists
+    $ git push -u origin Checklists
     $ git push -u origin Jmeter
     $ git push -u origin Mobile_testing
     $ git push -u origin Postman
     $ git push -u origin SQL
 
-3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
+3. В ветке Bug reports сделать текстовый документ со структурой баг репорта
     $ vim bug_report.txt
 
 4. Запушить структуру багрепорта на внешний репозиторий
     $ git add bug_report.txt
-    $ git commit -m "add"
+    $ git commit -m "add bug_report file"
     $ git push 
-    $ git push -f origin Bug_Reports
+    $ git push -f origin Bug_reports
 
-5. Вмержить ветку Bug Reports в Main
+5. Вмержить ветку Bug reports в Main
     $ git checkout main
-    $ git merge Bug_Reports
+    $ git merge Bug_reports
 
 6. Запушить main на внешний репозиторий.
     $ git push -f origin main
 
-7. В ветке CheckLists набросать структуру чек листа
-    $ vim chl.txt
+7. В ветке Checklists набросать структуру чек листа
+    $ vim checklist.txt
 
 8. Запушить структуру на внешний репозиторий
-    $ git add chl.txt
-    $ git commit -m "add chl"
+    $ git add checklist.txt
+    $ git commit -m "add add checklist file"
     $ git push origin Checklists
 
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+9. На внешнем репозитории сделать Pull Request ветки Checklists в main
 10. Синхронизировать Внешнюю и Локальную ветки Main
     $ git pull
 
