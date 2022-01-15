@@ -1,0 +1,253 @@
+Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
+
+
+Как отправить ДЗ на проверку.
+ 1. Создайте текстоовый файл как в первом ДЗ по Terminal.
+ 2. Сценарий перенесите в этот файл.
+ 3. На против каждого действия - напишите команду в GitBash
+
+Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.
+
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+git clone https://github.com/julia-mr1/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”.
+
+ 4. Добавить файл под гит.
+cd txt
+git add new.txt
+
+ 5. Закоммитить файл.
+ git commit -m "Add new.txt"
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+Привет всем! Меня зовут Юлия и я изучаю Github. 
+Мне 30 лет. Желаемая зарплата 2000$.
+Офферы присылайте сюда @julie_mrk :D
+
+ 8. Отправить изменения на внешний репозиторий.
+git add new.txt
+git commit -m "Rename"
+git push origin main
+
+
+
+ 9. Создать файл preferences.txt
+cat > preferences.txt
+
+GitBash
+Github
+Python
+Postman
+Jmeter
+Android studio
+Charles
+Mobile testing
+API testing
+Theory
+
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+
+Любимый режиссер - Дэвид Финчер
+Любимый сериал - Карточный домик
+Любимое время года - осень
+Страна, которую хотела бы посетить - Япония
+
+ 11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+cat > skills.txt
+
+ 12. Сделать коммит в одну строку.
+git add . && git commit -am "comment"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt.
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+git pull
+
+
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+git clone ссылка 
+
+ 6. Внутри локального JSON создать файл “new.json”.
+> new.json
+
+ 7. Добавить файл под гит.
+git add new.json
+
+ 8. Закоммитить файл.
+git commit -m "Add json"
+
+ 9. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+{
+"name": "Julia",
+"age": 30,
+"desired pay": "2000$"
+}
+
+ 11. Отправить изменения на внешний репозиторий.
+$ git add new.json | git commit -am "Add json"
+warning: LF will be replaced by CRLF in new.json.
+The file will have its original line endings in your working directory
+[main 9141a4d] Add json
+ 1 file changed, 5 insertions(+)
+
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 325 bytes | 325.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/julia-mr1/JSON.git
+   a87a426..9141a4d  main -> main
+
+
+ 12. Создать файл preferences.json
+{
+"name": "Julia",
+"age": 30,
+"desired pay": "2000$"
+}
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+
+{
+        "favorite_film_director": "David_Fincher",
+        "favorite_serial": "House_of_cards",
+        "favorite_season": "autumn",
+        "want_to_visit": "Japan"
+}
+
+
+
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+{
+	"my_skills": ["GitBash", "Github", "Python", "Postman", "Jmeter", "Android_studio", "Charles", "Mobile_testing", "API_testing", "Theory"]
+}
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+$ git add skills.txt | git commit -am "Update skills.txt" | git push
+
+
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+git pull
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+
+ 22. Клонировать репозиторий XML на локальный компьютер.
+$ git clone https://github.com/julia-mr1/XML.git
+
+
+ 23. Внутри локального XML создать файл “new.xml”.
+$ > new.xml
+
+ 24. Добавить файл под гит.
+$ git add new.xml
+
+ 25. Закоммитить файл.
+$ git commit -m "Add xml"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+$ git push
+
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+
+<new>
+<name>Julia</name>
+<age>30</age>
+<desired_pay>2000$</desired_pay>
+</new>
+
+ 28. Отправить изменения на внешний репозиторий.
+$ git add new.xml | git commit -am "Add xml" | git push
+
+ 29. Создать файл preferences.xml
+vim preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+<preferences>
+<favorite_film_director>David_Fincher</favorite_film_director>
+<favorite_serial>House_of_cards</favorite_serial>
+<favorite_season>autumn</favorite_season>
+<want_to_visit>Japan</want_to_visit>
+</preferences>
+
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+vim skills.xml
+
+<skills>
+<my_skills>GitBash, Github, Python, Postman, Jmeter, Android_studio, Charles, Mobile testing, API testing, Theory</my_skills>
+</skills>
+
+ 32. Сделать коммит в одну строку.
+
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+$ git add . | git commit -am "Add all xml" | git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+<bug_report>
+  <summary>краткое описание</summary> 
+  <steps_to_reproduce>шаги воспроизведения</steps_to_reproduce>
+  <actual_result>фактический результат</actual_result>
+  <expected_result>ожидаемый результат</expected_result>
+</bug_report>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 38. Синхронизировать внешний и локальный репозиторий XML
+git pull
+
+
+
+
+
+
+
+
