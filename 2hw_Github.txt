@@ -1,3 +1,5 @@
+Gitbash+Github commands homework №2
+
 TXT
 
 1. Создать внешний репозиторий c названием TXT
@@ -164,7 +166,7 @@ XML
 	</new>
 
 8. Отправить изменения на внешний репозиторий
-	$ git add new.xml | git commit -am "Add xml" | git push
+	$ git add new.xml | git commit -m "Add xml" | git push
 
 9. Создать файл preferences.xml
 	$ vim preferences.xml
@@ -187,7 +189,7 @@ XML
 12. Сделать коммит в одну строку
 
 13. Отправить сразу 2 файла на внешний репозиторий
-$ git add . | git commit -am "Add all xml" | git push
+$ git add . | git commit -m "Add all xml" | git push
 
 14. На веб интерфейсе создать файл bug_report.xml
 
