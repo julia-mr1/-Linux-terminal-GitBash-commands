@@ -61,7 +61,7 @@ Gitbranch commands homework №3
 
 8. Запушить структуру на внешний репозиторий
     $ git add checklist.txt
-    $ git commit -m "add add checklist file"
+    $ git commit -m "add checklist file"
     $ git push origin Checklists
 
 9. На внешнем репозитории сделать Pull Request ветки Checklists в main
