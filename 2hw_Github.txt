@@ -55,7 +55,7 @@ TXT
 	$ cat > skills.txt
 
 12. Сделать коммит в одну строку
-	$ git add . && git commit -am "comment"
+	$ git add . && git commit -m "comment"
 
 13. Отправить сразу 2 файла на внешний репозиторий
 	$ git push
@@ -99,7 +99,7 @@ JSON
 	}
 
 8. Отправить изменения на внешний репозиторий
-	$ git add new.json | git commit -am "Add json"
+	$ git add new.json | git commit -m "Add json"
 	$ git push
 
 9. Создать файл preferences.json
@@ -124,7 +124,7 @@ JSON
 	}
 
 12. Отправить сразу 2 файла на внешний репозиторий
-	$ git add skills.txt | git commit -am "Update skills.txt" | git push
+	$ git add skills.txt | git commit -m "Update skills.txt" | git push
 
 13. На веб интерфейсе создать файл bug_report.json
 
